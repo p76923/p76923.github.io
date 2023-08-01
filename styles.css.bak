@@ -1,0 +1,7 @@
+body {
+  background-color: white;
+  font-family: Source Serif Pro;
+}
+h1 {
+  font-family: Libre Baskerville;
+}
