@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Paco Adajar's Home Page</title>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,7 +18,9 @@ Theorem: The Earth is flat.<br>
 
 Proof: The Earth is locally flat. However, flatness is a local property. Thus, the Earth is flat.
 
-<h2>On the non-existence of bananas</h2>
+<h2>Nonexistence proofs</h2>
+
+<h3>Bananas</h3>
 
 <p>Theorem: Bananas do not exist.<br>
 
@@ -28,6 +30,15 @@ Thus, bananas cannot be polynomials, and so cannot exist.</p>
 
 <p>Alternative proof: Consider the set of banana splitting field jokes. By commutativity of a field, this is equivalent to the set field of banana splitting jokes.
 However, the set of banana splitting jokes is not a field. For instance, when you add two jokes to each other, the result is often unfunny and thus not a joke.</p>
+
+<h3>Peas</h3>
+
+<p>Theorem: Peas do not exist.<br>
+
+Theorem: Peas do not exist.
+Proof: If peas exist, split peas exist, and thus does split pea soup. In particular, you split peas in a number field.
+However, by the Chebotarev density theorem, in any number field, infinitely many peas split completely. So split pea soup does not exist.
+Thus, peas do not exist.</p>
 
 <h2>Galois and vector spaces</h2>
 
