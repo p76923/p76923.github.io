@@ -5,6 +5,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
 <link rel="stylesheet" href="styles.css">
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 
@@ -44,6 +48,16 @@ Thus, peas do not exist.</p>
 <p>What is the difference between &Eacute;variste Galois and a vector space?<br>
 
 A vector space has a second dual.</br>
+
+<h2>Truth in lies</h2>
+
+The Prime Number Theorem states that as \( x \to \infty \), the number of primes \( \pi(x) \) up to \( x \) is asymptotically \( x/\log{x} \). More specifically, we have
+\[ \pi(x) = \frac{x}{\log{x}} + O\left(\frac{x}{\log^2{x}} \right\). \]
+This is, of course, not the best statement of the Prime Number Theorem. We define the offset logarithmic integral \( \operatorname{Li}(x) \) by
+\[ \operatorname{Li}(x) := \int_2^x \! \frac{\mathrm{d}t}{\log{t}}. \]
+Then in fact we have that
+\[ \pi(x) = \operatorname{Li}(x) + O\left( x\exp\left(-c\sqrt{\log{x}}\right) \right\) \]
+for some constant \( c > 0 \) which gives an much better error term. Under the Riemann Hypothesis, in fact, that error term can be improved to \( \sqrt{x}\log^2{x} \). In other words, sometimes, there is truth in Li's.
 
 <h2>Non-recyclable joke</h2>
 
