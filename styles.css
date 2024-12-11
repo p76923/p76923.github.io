@@ -1,7 +1,8 @@
 body {
   background-color: white;
   font-family: Source Sans Pro;
-  margin: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 h1 {
   font-family: 'Oswald', sans-serif;
