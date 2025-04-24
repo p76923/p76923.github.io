@@ -52,13 +52,21 @@ A vector space has a second dual.</br>
 
 <h2>Truth in lies</h2>
 
-The Prime Number Theorem states that as \( x \to \infty \), the number of primes \( \pi(x) \) up to \( x \) is asymptotically \( x/\log{x} \). More specifically, we have
+<p>The Prime Number Theorem states that as \( x \to \infty \), the number of primes \( \pi(x) \) up to \( x \) is asymptotically \( x/\log{x} \). More specifically, we have
 \[ \pi(x) = \frac{x}{\log{x}} + O\left(\frac{x}{\log^2{x}} \right). \]
 This is, of course, not the best statement of the Prime Number Theorem. We define the offset logarithmic integral \( \operatorname{Li}(x) \) by
 \[ \operatorname{Li}(x) := \int_2^x \! \frac{\mathrm{d}t}{\log{t}}. \]
 Then in fact we have that
 \[ \pi(x) = \operatorname{Li}(x) + O\left( x\exp\left(-c\sqrt{\log{x}}\right) \right) \]
 for some constant \( c > 0 \) which gives a much better error term. Under the Riemann Hypothesis, in fact, that error term can be improved to \( \sqrt{x}\log{x} \). In other words, sometimes, the closest thing to the truth is a Li.
+</p>
+
+<h2>A brief history of multiplicative number theory</h2>
+
+<p>From the prime number theorem to Dirichlet's theorem, now that's what you call character development. (Some would call it progression.)
+Okay, I admit I'm not being entirely truthful here. Dirichlet's theorem, at least in terms of logarithmic density, predates the prime number theorem. So more accurately I should've said something about, say, the PNT for progressions for the former, or the infinitude of primes for the latter. But sometimes, as the PNT itself shows us, the closest thing to the truth is a Li.
+Eventually Frobenius and Chebotarev realized the connection to splitting behavior of primes in Galois extensions and conjugacy classes in the Galois group. It was bound to happen; one might call it density.
+Since then there have been a bunch of Tauberian theorems and the Landau-Selberg-Delange method, marking a regression to the mean.</p>
 
 <h2>Non-recyclable joke</h2>
 
